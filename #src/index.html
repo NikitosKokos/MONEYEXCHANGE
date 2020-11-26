@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('_head.html',{
+	"title":"MONEYEXCHANGE"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('_header.html',{})
+			<main class="page">
+				<section class="hero">
+					<div class="hero__bg _ibg"><img src="./img/mainBg.jpg" alt="mainBg"></div>
+					<div class='hero__content _container'>
+						<h1 class="hero__title">Мультивалютный<br> обменный сервис 24/7</h1>
+						<h2 class="hero__subtitle">Быстрый обмен без скрытых комиссий</h2>
+						<form action="#" class="hero__calc calc-hero">
+							<div class="calc-hero__section">
+								<div class="calc-hero__title">Вы отдаете</div>
+								<label class="calc-hero__label">Сумма</label>
+								<div class="calc-hero__count">
+									<div class="calc-hero__input">
+										<input type="text" ></div>
+									<div class="calc-hero__currency">
+										<div class="__select" data-state="">
+											<div class="__select__title" data-default="RUB"><img src="./img/icons/currency/04.png" alt=""> RUB</div>
+											<div class="__select__content">
+											  <input id="select01" class="__select__input" type="radio" name="select" />
+											  <label for="select01" class="__select__label"><img src="./img/icons/currency/01.png" alt=""> RUB</label>
+											  <input id="select02" class="__select__input" type="radio" name="select" />
+											  <label for="select02" class="__select__label"><img src="./img/icons/currency/02.png" alt=""> ETH</label>
+											  <input id="select03" class="__select__input" type="radio" name="select" />
+											  <label for="select03" class="__select__label"><img src="./img/icons/currency/03.png" alt=""> BTC</label>
+											  <input id="select04" class="__select__input" type="radio" name="select" checked/>
+											  <label for="select04" class="__select__label"><img src="./img/icons/currency/04.png" alt=""> RUB</label>
+											  <input id="select05" class="__select__input" type="radio" name="select"/>
+											  <label for="select05" class="__select__label"><img src="./img/icons/currency/05.png" alt=""> UAH</label>
+											  <input id="select06" class="__select__input" type="radio" name="select" />
+											  <label for="select06" class="__select__label"><img src="./img/icons/currency/06.png" alt=""> USD</label>
+											  <input id="select07" class="__select__input" type="radio" name="select" />
+											  <label for="select07" class="__select__label"><img src="./img/icons/currency/07.png" alt=""> USD</label>
+											  <input id="select08" class="__select__input" type="radio" name="select" />
+											  <label for="select08" class="__select__label"><img src="./img/icons/currency/08.png" alt=""> RUB</label>
+											</div>
+										  </div>
+									</div>
+								</div>
+							</div>
+							<div class="calc-hero__change" data-da='calc-hero__button,1,1182'><img src="./img/icons/currency.svg" alt="currency"></div>
+							<div class="calc-hero__section">
+								<div class="calc-hero__title">Вы получете <span>c учетом комиссии ПС (0.5%)</span></div>
+								<label class="calc-hero__label">Сумма</label>
+								<div class="calc-hero__count">
+									<div class="calc-hero__input">
+									<input type="text" ></div>
+									<div class="calc-hero__currency">
+										<div class="__select" data-state="">
+											<div class="__select__title" data-default="RUB"><img src="./img/icons/currency/08.png" alt=""> RUB</div>
+											<div class="__select__content">
+											  <input id="select1" class="__select__input" type="radio" name="select2" />
+											  <label for="select1" class="__select__label"><img src="./img/icons/currency/01.png" alt=""> RUB</label>
+											  <input id="select2" class="__select__input" type="radio" name="select2" />
+											  <label for="select2" class="__select__label"><img src="./img/icons/currency/02.png" alt=""> ETH</label>
+											  <input id="select3" class="__select__input" type="radio" name="select2" />
+											  <label for="select3" class="__select__label"><img src="./img/icons/currency/03.png" alt=""> BTC</label>
+											  <input id="select4" class="__select__input" type="radio" name="select2" />
+											  <label for="select4" class="__select__label"><img src="./img/icons/currency/04.png" alt=""> RUB</label>
+											  <input id="select5" class="__select__input" type="radio" name="select2"/>
+											  <label for="select5" class="__select__label"><img src="./img/icons/currency/05.png" alt=""> UAH</label>
+											  <input id="select06" class="__select__input" type="radio" name="select2" />
+											  <label for="select6" class="__select__label"><img src="./img/icons/currency/06.png" alt=""> USD</label>
+											  <input id="select7" class="__select__input" type="radio" name="select2" />
+											  <label for="select7" class="__select__label"><img src="./img/icons/currency/07.png" alt=""> USD</label>
+											  <input id="select8" class="__select__input" type="radio" name="select2" checked/>
+											  <label for="select8" class="__select__label"><img src="./img/icons/currency/08.png" alt="" > RUB</label>
+											</div>
+										  </div>
+									</div>
+								</div>
+							</div>
+							<div class="calc-hero__button">
+								<button class="calc-hero__btn">Обменять</button>
+							</div>
+						</form>
+					</div>
+				</section>
+				<div class="advantages">
+					<div class='advantages__content _container'>
+						<div class="advantages__item">
+							<div class="advantages__img"><img src="./img/items/01.png" alt="items"></div>
+							<div class="advantages__text">
+								<div class="advantages__title">Безопасность</div>
+								<div class="advantages__descr">Усиленная безопасность ваших обменов, усиленная безопасность от мошенников!</div>
+							</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__img"><img src="./img/items/02.png" alt="items"></div>
+							<div class="advantages__text">
+								<div class="advantages__title">Реферальная система</div>
+								<div class="advantages__descr">На сервисе работает партнерская программа , за каждый обмен приведенного вами клиента, вы получаете 0.5% с нашей прибыли.</div>
+							</div>
+						</div>
+						<div class="advantages__item">
+							<div class="advantages__img"><img src="./img/items/03.png" alt="items"></div>
+							<div class="advantages__text">
+								<div class="advantages__title">Онлайн поддержка</div>
+								<div class="advantages__descr">Четыре вида поддержки для наших клиентов:  Телеграмм канал, E-mail поддержка, и мобильный номер (Viber).</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section class="history">
+					
+				</section>
+			</main>
+			@@include('_footer.html',{})
+		</div>
+		@@include('_popup.html',{})
+		@@include('_js.html',{})
+	</body>
+</html>
