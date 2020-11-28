@@ -1,0 +1,133 @@
+.slider {
+    padding: 0px 0px 140px 0px;
+    @media (max-width: $md1+px){
+        padding: 0px 0px 100px 0px;
+    }
+    &__content {
+        overflow: hidden;
+    }
+    .swiper-wrapper{
+        align-items: stretch;
+    }
+    &__title {
+        font-weight: 500;
+        font-size: 35px;
+        color: #160647;
+        line-height: 132.4%;
+        padding: 0px 0px 135px 0px;
+        @media (max-width: $md1+px){
+            padding: 0px 0px 100px 0px;
+        }
+        @media (max-width: $md3+px){
+            padding: 0px 0px 40px 0px;
+            font-size: 25px;
+         }
+    }
+
+    &__body {
+    }
+
+    &__item {
+        padding: 0 0px 0 70px;
+        @media (max-width: $md3+px){
+           padding: 0px 0px 0px 10px;
+        }
+    }
+    &__info{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 45px 0px 0px 0px;
+    }
+        
+    &__prev {
+        width: 73px;
+        height: 16px;
+        background: url('../img/icons/Arrow2.svg') center no-repeat;
+        transform: rotate(180deg);
+        margin: 0px 20px 0px 0px;
+        &.swiper-button-disabled{
+            width: 36px;
+            height: 15px;
+            background: url('../img/icons/Arrow.svg') center no-repeat;
+            transform: rotate(0deg);
+            cursor: default;
+        }
+	}
+
+	&__arrow {
+        background-size: contain;
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+	}
+
+	&__next {
+        width: 73px;
+        height: 16px;
+        background: url('../img/icons/Arrow2.svg') center no-repeat;
+        transform: rotate(0deg);
+        &.swiper-button-disabled{
+            width: 36px;
+            height: 15px;
+            background: url('../img/icons/Arrow.svg') center no-repeat;
+            transform: rotate(180deg);
+            cursor: default;
+        }
+	}
+}
+
+.item-slider {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    position: relative;
+     &:after{
+        content: '';
+        position: absolute;
+        width: 407px;
+        height: 347px;
+        top: -100px;
+        left: -200px;
+        background: url('../img/decor/reviews-decor.png') center no-repeat;
+        @media (max-width: $md3+px){
+            display: none;
+         }
+    }
+    &__descr {
+        flex: 1 1 auto;
+        font-size: 18px;
+        line-height: 166%;
+        color: rgba($color: #4E5983, $alpha: .7);
+        padding: 0px 0px 30px 0px;
+        @media (max-width: $md1+px){
+            font-size: 16px;
+        }
+        @media (max-width: $md3+px){
+            padding: 0px 0px 15px 0px;
+         }
+    }
+
+    &__bottom {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    &__name {
+        font-size: 20px;
+        color: #160647;
+        margin: 0px 30px 0px 0px;
+        @media (max-width: $md1+px){
+            font-size: 18px;
+        }
+        @media (max-width: $md4+px){
+           font-size: 14px;
+           margin: 0px 15px 0px 0px;
+        }
+    }
+
+    &__data {
+        color: #838BA8; 
+    }
+    
+}

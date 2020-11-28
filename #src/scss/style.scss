@@ -6,12 +6,16 @@
 @import "./base/ibg"; 
 @import "./base/select"; 
 @import "./base/burger"; 
+@import "./libs/swiper-bundle.min"; 
 
 // blocks
 @import "./blocks/header";
 @import "./blocks/footer";
 @import "./blocks/hero";
 @import "./blocks/advantages";
+@import "./blocks/history";
+@import "./blocks/currency";
+@import "./blocks/slider";
 
 // global styles
 ._container {
