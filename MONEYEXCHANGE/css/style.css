@@ -1799,7 +1799,7 @@ button.swiper-pagination-bullet {
 .slider__next.swiper-button-disabled {
   width: 36px;
   height: 15px;
-  background: url("../img/icons/Arrow.svg") center no-repeat;
+  background: url("../img/icons/arrow.svg") center no-repeat;
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
